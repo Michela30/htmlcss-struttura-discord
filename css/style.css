@@ -19,15 +19,14 @@
 
 
 
+/* HEADER */
 
-/* DEBUG */
-
-.debug .header-first-section{
+.header-first-section{
     background-color: #ADD8E6;
     height: 80px;
 }
 
-.debug .nav-bar-row{
+.nav-bar-row{
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
@@ -61,16 +60,17 @@ header > section{
     justify-content: center;
 }
 
-.debug .header-second-section{
+.header-second-section{
     width: 40%;
     background-color: #EE82EE;
     border: 3px dashed black;
     height: 300px;
 }
 
+/* MAIN */
+
 main > section{
     height: 500px;
-    background-color: #EE82EE;
 }
 
 .main-section-four{
@@ -116,9 +116,10 @@ main > section:nth-of-type(even){
     border: 3px dashed black;
 }
 
+/* FOOTER */
+
 footer > section{
     background-color: #23272A;
-    border: 3px solid yellow;
 }
 
 .container-footer{
@@ -168,3 +169,5 @@ footer > section{
     border: 1px dashed black;
     padding: 5px
 }
+
+/* DEBUG */
