@@ -85,7 +85,7 @@ main > section:nth-of-type(even){
     background-color: #D3D3D3;
 }
 
-.box-section-row {
+.section-container {
     max-width: 1000px;
     margin: 0 auto;
     padding-top: 45px;
@@ -114,4 +114,57 @@ main > section:nth-of-type(even){
     height: 800px;
     background-color: #228B22;
     border: 3px dashed black;
+}
+
+footer > section{
+    background-color: #23272A;
+    border: 3px solid yellow;
+}
+
+.container-footer{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+.pink-footer-box{
+    background-color:#F08080;
+    border: 2px dashed black;
+    height: 500px;
+    width: 30%;
+}
+.blue-footer-box{
+    background-color:#20B2AA;
+    border: 2px dashed black;
+    height: 500px;
+    width: 70%;
+    display: flex;
+}
+
+.columns{
+    width: calc(100% / 4);
+    border: 2px dashed white;
+}
+
+.second-container-footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 80px;
+    background-color: #7FFFD4;
+    padding: 20px 0 ;
+}
+
+.logo-footer{
+    background-color: #FFC0CB;
+    border: 1px dashed black;
+    padding: 5px
+}
+.button{
+    background-color: #FFC0CB;
+    border: 1px dashed black;
+    padding: 5px
 }
