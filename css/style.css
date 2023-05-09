@@ -61,9 +61,51 @@ header > section{
     justify-content: center;
 }
 
-.debug .box-rosa{
-    width: 700px;
+.debug .header-second-section{
+    width: 40%;
     background-color: #EE82EE;
     border: 3px dashed black;
     height: 300px;
 }
+
+main > section{
+    height: 500px;
+    background-color: #EE82EE;
+}
+
+.main-section-four{
+    height: 700px;
+}
+
+main > section:nth-of-type(odd){
+    background-color: white;
+}
+
+main > section:nth-of-type(even){
+    background-color: #D3D3D3;
+}
+
+.box-section-row {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+}
+
+.blue-rectangle{
+    background-color: #1E90FF;
+    border: 3px dashed black;
+    width: 60%;
+    height: 400px;
+}
+.pink-rectangle{
+    background-color: #FFC0CB;
+    border: 3px dashed black;
+    width: 40%;
+    height: 400px;
+}
+
+#reverse{
+    flex-direction: row-reverse;
+}
+
