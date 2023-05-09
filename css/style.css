@@ -9,9 +9,61 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 .container{
+    max-width: 1800px;
     margin: 0 auto;
-    max-width: 1200px;
+}
+
+
+
+
+/* DEBUG */
+
+.debug .header-first-section{
+    background-color: #ADD8E6;
+    height: 80px;
+}
+
+.debug .nav-bar-row{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.nav-bar-row >* {
+    background-color: #DAA520;
+    border: 2px dashed black;
+    line-height: 30px;
+}
+.logo{
+    width: 25%;
+    padding-left: 5px;
+}
+.link{
+    width: 50%;
+    text-align: center;
+}
+.login{
+    width: 25%;
+    text-align: right;
+    padding-right: 5px;
+}
+
+header > section{
+    background-color: #00008B;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.debug .box-rosa{
+    width: 700px;
+    background-color: #EE82EE;
+    border: 3px dashed black;
+    height: 300px;
 }
