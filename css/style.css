@@ -74,7 +74,7 @@ main > section{
 }
 
 .main-section-four{
-    height: 700px;
+    height: 900px;
 }
 
 main > section:nth-of-type(odd){
@@ -88,7 +88,7 @@ main > section:nth-of-type(even){
 .box-section-row {
     max-width: 1000px;
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 45px;
     display: flex;
 }
 
@@ -109,3 +109,9 @@ main > section:nth-of-type(even){
     flex-direction: row-reverse;
 }
 
+.green-rectangle{
+    width: 100%;
+    height: 800px;
+    background-color: #228B22;
+    border: 3px dashed black;
+}
