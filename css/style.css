@@ -24,13 +24,14 @@
 .header-first-section{
     background-color: #ADD8E6;
     height: 80px;
+    display: flex;
+    align-items: center;
 }
 
 .nav-bar-row{
     display: flex;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding-top: 25px;
+    width: 100%;
+    justify-content: center
 }
 
 .nav-bar-row >* {
@@ -39,15 +40,15 @@
     line-height: 30px;
 }
 .logo{
-    width: 25%;
+    width: 15%;
     padding-left: 5px;
 }
 .link{
-    width: 50%;
+    width: 30%;
     text-align: center;
 }
 .login{
-    width: 25%;
+    width: 15%;
     text-align: right;
     padding-right: 5px;
 }
@@ -85,23 +86,28 @@ main > section:nth-of-type(even){
     background-color: #D3D3D3;
 }
 
-.section-container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding-top: 45px;
+main > section{
     display: flex;
+    align-items: center;
+   
+}
+.section-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .blue-rectangle{
     background-color: #1E90FF;
     border: 3px dashed black;
-    width: 60%;
+    width: 40%;
     height: 400px;
 }
 .pink-rectangle{
     background-color: #FFC0CB;
     border: 3px dashed black;
-    width: 40%;
+    width: 20%;
     height: 400px;
 }
 
@@ -110,7 +116,7 @@ main > section:nth-of-type(even){
 }
 
 .green-rectangle{
-    width: 100%;
+    width: 60%;
     height: 800px;
     background-color: #228B22;
     border: 3px dashed black;
@@ -118,29 +124,31 @@ main > section:nth-of-type(even){
 
 /* FOOTER */
 
-footer > section{
-    background-color: #23272A;
+footer:first-child{
+    display: flex;
+    align-items: center;
+    
 }
 
 .container-footer{
     display: flex;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding-bottom: 25px;
-    padding-top: 10px;
+    width: 100%;
+    background-color: #23272A;
+    justify-content: center;
+    padding: 10px 0 20px 0;
 }
 
 .pink-footer-box{
     background-color:#F08080;
     border: 2px dashed black;
     height: 500px;
-    width: 30%;
+    width: 20%;
 }
 .blue-footer-box{
     background-color:#20B2AA;
     border: 2px dashed black;
     height: 500px;
-    width: 70%;
+    width: 40%;
     display: flex;
 }
 
@@ -149,10 +157,15 @@ footer > section{
     border: 2px dashed white;
 }
 
+
+.background-footer{
+    background-color: #23272A;
+    padding-top: 25px;
+}
 .second-container-footer{
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;
+    width: 60%;
     margin: 0 auto;
     height: 80px;
     background-color: #7FFFD4;
